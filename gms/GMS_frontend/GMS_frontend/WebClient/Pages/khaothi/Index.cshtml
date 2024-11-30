@@ -1,0 +1,50 @@
+﻿@page
+@model WebClient.Pages.khaothi.IndexModel
+@{
+}
+
+<div class="container mt-5 p-4 bg-white rounded shadow-sm border">
+    <h2 class="mb-4 text-center text-success fw-bold">Grading site </h2>
+    @if (Model.ListGrade != null && Model.ListGrade.Count > 0)
+    {
+
+
+        <table class="table table-bordered text-center align-middle shadow-sm">
+            <thead class="bg-success text-white">
+                <tr>
+                    <th scope="col" class="py-3">Grade Type</th>
+                    <th scope="col" class="py-3">Course Code</th>
+                    <th scope="col" class="py-3">
+                        Action
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var grade in Model.ListGrade)
+                {
+                    <tr class="border-bottom">
+                        <th scope="row">@grade.Name - @grade.CourseName</th>
+                        <td>@grade.Completed (@grade.PercentCompleted%)</td>
+                        <td>
+                            <a asp-page="/khaothi/Graded"
+                               asp-route-gradeId="@grade.Id"
+                               asp-route-courseId="@grade.CourseId"
+                               asp-route-courseName="@grade.CourseName"
+                               asp-route-gradeName="@grade.Name"
+                               class="btn btn-outline-success btn-sm fw-bold shadow-sm text-dark rounded-pill"
+                               title="Graded for this grade">
+                                Grade
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>There are no grade for graded.</p>
+    }
+</div>
+
+

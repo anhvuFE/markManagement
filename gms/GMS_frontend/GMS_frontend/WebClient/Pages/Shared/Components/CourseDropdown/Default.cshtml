@@ -1,0 +1,17 @@
+﻿@using WebClient.DTO.Course
+@model List<CourseDTO>
+
+<div class="dropdown-submenu">
+    <a class="dropdown-item dropdown-toggle" href="#">Distribute Grade</a>
+    <ul class="dropdown-menu">
+        @foreach (var course in Model)
+        {
+            <li>
+                <a class="dropdown-item" asp-area="" asp-page="/admin/Distribute"
+                   asp-route-courseId="@course.Id" asp-route-courseName="@course.Name">
+                    @course.Code
+                </a>
+            </li>
+        }
+    </ul>
+</div>

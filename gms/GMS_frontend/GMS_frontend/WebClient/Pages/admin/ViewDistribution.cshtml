@@ -1,0 +1,164 @@
+﻿@page
+@model WebClient.Pages.admin.ViewDistributionModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using Newtonsoft.Json
+
+<div class="container mt-5 p-4 bg-light rounded shadow">
+    <h2 class="mb-4 text-center" style="color: #2c6e49;">Grading Distribution</h2>
+
+    <!-- Main table with course names and "View Details" button -->
+    <table class="table table-hover table-bordered text-center align-middle">
+        <thead class="table-dark">
+            <tr>
+                <th>Course</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.ListCourse.Count; i++)
+            {
+                var course = Model.ListCourse[i];
+                <tr>
+                    <td class=" text-start">@course.Name</td>
+                    <td>
+                        <!-- Button to open modal dialog -->
+                        <button class="btn btn-success btn-sm" type="button" onclick="showDetails(@course.Id, '@course.Name')">
+                            View Details
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <!-- Back to Home Button -->
+    <div class="d-flex justify-content-center mt-3">
+        <a class="btn btn-outline-success rounded-pill px-4" href="/admin/Index">Back to Home</a>
+    </div>
+</div>
+
+<!-- Modal for viewing grading details -->
+<div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header" style="background-color: #2c6e49; color: white;">
+                <h5 class="modal-title" id="detailsModalLabel">Grading Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h5 id="modalCourseName"></h5>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr class="table-secondary">
+                            <th>Category</th>
+                            <th>Quantity</th>
+                            <th>Weight</th>
+                        </tr>
+                    </thead>
+                    <tbody id="modalDetailsBody">
+                        <!-- Rows will be populated dynamically by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" onclick="updateCourse()">Update</button>
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Pass data to JavaScript as JSON -->
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Convert server-side data into JSON format for JavaScript
+        const coursesData = @Html.Raw(JsonConvert.SerializeObject(Model.ListCourse));
+        const distributionData = @Html.Raw(JsonConvert.SerializeObject(Model.DistributeTable));
+        const gradeTypes = @Html.Raw(JsonConvert.SerializeObject(Model.ListGradeType));
+
+        function showDetails(courseId, courseName) {
+            document.getElementById("modalCourseName").innerText = courseName;
+            let detailsBody = document.getElementById("modalDetailsBody");
+            detailsBody.innerHTML = '';  // Clear previous data
+
+            // Find the index of the course in the coursesData array
+            let courseIndex = coursesData.findIndex(course => course.Id === courseId);
+
+            if (courseIndex !== -1) {
+                // Get the grading details for the selected course
+                const gradeDetails = distributionData[courseIndex];
+
+                gradeDetails.forEach((data, index) => {
+                    const gradeTypeName = gradeTypes[index].Name;
+                    const quantity = data ? data.quantityInGradeType : 0;
+                    const weight = data ? data.weight : "No Data";
+
+                    // Only display rows where quantity is greater than 0
+                    if (quantity > 0) {
+                        let row = `<tr>
+                                                    <td>${gradeTypeName}</td>
+                                                    <td>${quantity}</td>
+                                                    <td>${weight}</td>
+                                                   </tr>`;
+                        detailsBody.innerHTML += row;
+                    }
+                });
+            }
+
+            // Show the modal
+            var detailsModal = new bootstrap.Modal(document.getElementById('detailsModal'));
+            detailsModal.show();
+        }
+
+        function updateCourse() {
+            alert("Update functionality not yet implemented.");
+        }
+    </script>
+}
+
+<style>
+    /* CSS Styling */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f2f5;
+    }
+
+    .container {
+        background-color: #ffffff;
+    }
+
+    .table {
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .table-dark th {
+        color: #ffffff;
+        background-color: #2c6e49;
+    }
+
+    .table-secondary {
+        background-color: #f8f9fa;
+    }
+
+    .btn-success {
+        background-color: #2c6e49;
+        border-color: #2c6e49;
+    }
+
+    .btn-outline-success {
+        color: #2c6e49;
+        border-color: #2c6e49;
+    }
+
+        .btn-outline-success:hover {
+            background-color: #2c6e49;
+            color: white;
+        }
+
+    .rounded-pill {
+        border-radius: 50px !important;
+    }
+</style>

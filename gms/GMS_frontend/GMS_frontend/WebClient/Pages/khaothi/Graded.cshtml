@@ -1,0 +1,113 @@
+﻿@page
+@model WebClient.Pages.khaothi.GradedModel
+
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 1em;
+        font-family: Arial, sans-serif;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+
+    th, td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+
+    th {
+        background-color: #009879;
+        color: white;
+        font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f3f3f3;
+    }
+
+    tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .title {
+        color: #333;
+        margin-bottom: 20px;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .back-link {
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+        color: #009879;
+        text-decoration: none;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h2 class="title">Grades for @Model.CourseName - @Model.GradeName</h2>
+
+        @if (!String.IsNullOrEmpty(Model.Msg))
+        {
+            <p class="error-message" style="color: red; text-align: center;">@Model.Msg</p>
+        }
+
+        @if (Model.ListStudent != null && Model.ListStudent.Count > 0)
+        {
+            <div class="form-container">
+                <form method="post">
+                    <input type="hidden" name="gradeId" value="@Model.GradeId" />
+                    <input type="hidden" name="gradeName" value="@Model.GradeName" />
+                    <input type="hidden" name="courseName" value="@Model.CourseName" />
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Student ID</th>
+                                <th>Student Name</th>
+                                <th>Grade</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int i = 0; i < Model.ListStudent.Count; i++)
+                            {
+                                <tr>
+                                    <td>@Model.ListStudent[i].Id</td>
+                                    <td>@Model.ListStudent[i].Username</td>
+                                    <td>
+                                        <input type="number" min="0" max="10" step="1" name="grades[@i]" value="@Model.GradeTable[i][0]" />
+                                        <input type="hidden" name="studentIds[@i]" value="@Model.ListStudent[i].Id" />
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    <div class="d-flex justify-content-center gap-3 mt-4">
+                        <input type="submit" value="Submit" class="btn btn-success px-5 py-2 fw-semibold rounded-pill shadow-sm" />
+                        <a asp-page="/khaothi/Index"
+                           class="btn btn-outline-success px-4 py-2 fw-semibold rounded-pill shadow-sm">
+                            Back
+                        </a>
+                    </div>
+
+                  
+                </form>
+            </div>
+        }
+        else
+        {
+            <p style="text-align: center;">No students available for grading.</p>
+        }
+
+        
+    </div>
+</body>

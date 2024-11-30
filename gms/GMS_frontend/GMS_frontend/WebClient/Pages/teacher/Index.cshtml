@@ -1,0 +1,50 @@
+﻿@page
+@model WebClient.Pages.teacher.IndexModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@inject IHttpContextAccessor HttpContextAccessor;
+@using Newtonsoft.Json
+@using WebClient.DTO.User;
+@{
+    var json = HttpContextAccessor.HttpContext.Session.GetString("currentUser");
+    var user = json != null ? JsonConvert.DeserializeObject<GetUserDTO>(json) : null;
+    var sessionTitle = user != null ? $"List of {user.Username}'s Sessions" : "Session List";
+}
+
+<div class="text-center">
+    <h1 class="title text-success fw-bold" style="margin-top: 9px;">@sessionTitle</h1>
+
+    <!-- Card chứa các nút admin -->
+    <div class="card" style="width: 900px; margin: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <div class="card-header bg-success text-white">
+            Session Name
+        </div>
+        <div class="card-body text-center">
+            @if (Model.ListSession != null && Model.ListSession.Count > 0)
+            {
+                <table class="table-custom">
+                    <tbody>
+                        @foreach (var session in Model.ListSession)
+                        {
+                            <tr>
+                                <td>
+                                    <a asp-page="/teacher/ListGrade"
+                                       asp-route-sessionId="@session.Id"
+                                       asp-route-courseName="@session.CourseName"
+                                       asp-route-className="@session.ClassName"
+                                       class="text-decoration-none text-dark fw-semibold"
+                                       title="Graded for this session">
+                                        @session.CourseName - @session.ClassName
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <p class="text-muted">There are no sessions.</p>
+            }
+        </div>
+    </div>
+</div>

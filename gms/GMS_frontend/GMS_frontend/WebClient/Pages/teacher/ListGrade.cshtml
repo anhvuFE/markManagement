@@ -1,0 +1,57 @@
+﻿@page
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@model WebClient.Pages.teacher.ListGradeModel
+
+<div class="container mt-5 p-4 bg-white rounded shadow-sm border">
+    <h2 class="mb-4 text-center text-success fw-bold">Grades for @Model.CourseName - @Model.ClassName</h2>
+
+    @if (Model.ListGrade != null && Model.ListGrade.Count > 0)
+    {
+        <table class="table table-bordered text-center align-middle shadow-sm">
+            <thead class="bg-success text-white">
+                <tr>
+                    <th scope="col" class="py-3">#</th>
+                    <th scope="col" class="py-3">Course Code</th>
+                    <th scope="col" class="py-3">
+                        <a asp-page="/teacher/ViewGrade"
+                           asp-route-sessionId="@Model.SessionId"
+                           asp-route-className="@Model.ClassName"
+                           asp-route-courseName="@Model.CourseName"
+                           class="btn btn-warning btn-sm fw-semibold shadow-lg text-dark rounded-pill">
+                            View All Grade
+                        </a>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var grade in Model.ListGrade)
+                {
+                    <tr class="border-bottom">
+                        <th scope="row">@grade.Id</th>
+                        <td>@grade.Name</td>
+                        <td>
+                            <a asp-page="/teacher/Graded"
+                               asp-route-sessionId="@Model.SessionId"
+                               asp-route-className="@Model.ClassName"
+                               asp-route-courseName="@Model.CourseName"
+                               asp-route-gradeId="@grade.Id"
+                               asp-route-gradeName="@grade.Name"
+                               class="btn btn-outline-success btn-sm fw-bold shadow-sm text-dark rounded-pill"
+                               title="Graded">
+                                Input Grade
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p class="text-center text-muted fs-5 mt-4">No grades available for this session.</p>
+    }
+
+    <div class="d-flex justify-content-between mt-4">
+        <a class="btn btn-outline-success px-4 py-2 fw-semibold shadow-sm rounded-pill" asp-page="/teacher/Index">Back</a>
+    </div>
+</div>

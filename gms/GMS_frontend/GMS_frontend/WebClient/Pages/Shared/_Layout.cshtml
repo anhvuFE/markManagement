@@ -1,0 +1,117 @@
+﻿@inject IHttpContextAccessor HttpContextAccessor;
+@using Newtonsoft.Json
+@using WebClient.DTO.User;
+@{
+    var json = HttpContextAccessor.HttpContext.Session.GetString("currentUser");
+    var user = json != null ? JsonConvert.DeserializeObject<GetUserDTO>(json) : null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - GMS</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WebClient.styles.css" asp-append-version="true" />
+
+    <style>
+        .dropdown-submenu {
+            position: relative;
+        }
+
+            .dropdown-submenu .dropdown-menu {
+                top: 0;
+                left: 100%;
+                margin-top: -1px;
+            }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container-fluid.bg {
+            flex: 1;
+        }
+
+        .green-button {
+            background-color: #28a745; /* Màu xanh lá */
+            color: white !important;
+            padding: 5px 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-left: 10px; /* Thêm khoảng cách giữa các nút */
+            
+        }
+
+            .green-button:hover {
+                background-color: #218838; /* Màu xanh đậm hơn khi hover */
+            }
+
+        /* Tạo khoảng trống cho footer cố định */
+        main {
+            padding-bottom: 50px; /* Tạo khoảng trống để tránh bị footer che nội dung */
+        }
+
+    </style>
+
+</head>
+<body>
+    <header style="position: fixed; top: 0; width: 100%; z-index: 1000;">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">FPT University Academic Portal</a>
+                <div class="d-flex align-items-center">
+                    @if (user != null)
+                    {
+                        <span class="nav-link text-dark">Hello, @user.Username</span>
+                        <a class="green-button" href="/common/logout">Logout</a>
+                        <span class="green-button">CAMPUS: FPTU-Hòa Lạc</span>
+                    }
+                    else
+                    {
+                        <a class="nav-link text-dark" href="/guest/login">Login</a>
+                    }
+                    <!-- App Store and Google Play Icons -->
+                    <a href="https://apps.apple.com/vn/app/myfap/id1527723314?l=vi" target="_blank">
+                        <img src="/css/app-store.png" alt="App Store" style="height: 30px; margin-right: 10px;">
+                    </a>
+                    <a href="https://play.google.com/" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" style="height: 30px; margin-right: 10px;">
+                    </a>
+
+                    <!-- QR Code -->
+                    <img src="/css/qrcodeFU.jpg" alt="QR Code" style="height: 50px; margin-right: 10px;">
+
+                    <!-- Username and Campus Information -->
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="container-fluid bg">
+        <main role="main" class="pb-3" style="padding-top:70px;">
+            @RenderBody()
+            <vc:random-ascii-art></vc:random-ascii-art>
+
+        </main>
+    </div>
+
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

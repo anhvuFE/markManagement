@@ -1,0 +1,26 @@
+﻿@page
+@inject IHttpContextAccessor HttpContextAccessor;
+@model IndexModel
+@using WebClient.DTO.User;
+@using Newtonsoft.Json
+@{
+    var json = HttpContextAccessor.HttpContext.Session.GetString("currentUser");
+    var user = json != null ? JsonConvert.DeserializeObject<GetUserDTO>(json) : null;
+}
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4"></h1>
+
+    @if (user == null)
+    {
+        <h1 class='mt-5' style='text-align: center; vertical-align: middle; color: darkgrey; user-select: none;'>
+            <pre style="color: orange">
+                @Model.AsciiArt
+                    </pre>
+            10 Điểm Project
+        </h1>
+    }
+</div>

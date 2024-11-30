@@ -1,0 +1,268 @@
+﻿@page
+@model WebClient.Pages.admin.ClassModel
+
+<h2>Quản lý lớp và môn học</h2>
+
+@if (ViewData["Message"] != null)
+{
+    <div style="margin-top:350px" class="message-box @(ViewData["Message"].ToString().Contains("thành công") ? "success" : "error")">
+        @ViewData["Message"]
+    </div>
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    h2 {
+        text-align: center;
+        color: #4CAF50;
+        margin-bottom: 20px;
+    }
+
+    .message-box {
+        text-align: center;
+        margin: 10px auto;
+        padding: 10px;
+        width: 50%;
+        border-radius: 8px;
+        font-size: 1em;
+        font-weight: bold;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .success {
+        color: #155724;
+        background-color: #d4edda;
+        border: 1px solid #c3e6cb;
+    }
+
+    .error {
+        color: #721c24;
+        background-color: #f8d7da;
+        border: 1px solid #f5c6cb;
+    }
+
+
+    /* Container ngang cho các form */
+    .container {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px auto;
+        max-width: 1200px;
+    }
+
+    /* Form trong chế độ thu gọn */
+    .form-container {
+        width: 300px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+    }
+
+        .form-container h3 {
+            background-color: #4CAF50;
+            color: white;
+            margin: 0;
+            padding: 10px;
+            font-size: 1em;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+    /* Dropdown nội dung ẩn */
+    .form-content {
+        padding: 15px;
+        background-color: #f9f9f9;
+    }
+
+    .form-container.active .form-content {
+        display: block;
+    }
+
+    .form-container label {
+        font-weight: bold;
+        display: block;
+        margin-top: 10px;
+    }
+
+    .form-container select,
+    .form-container input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+    .form-container button {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1em;
+    }
+
+        .form-container button:hover {
+            background-color: #45a049;
+        }
+
+    .table-container {
+        flex: 2;
+        margin-top: 20px;
+    }
+
+        .table-container h3 {
+            color: #4CAF50;
+        }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 10px;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: center;
+    }
+
+    th {
+        background-color: #4CAF50;
+        color: white;
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    /* Nút Thêm học sinh */
+    .btn-primary {
+        background-color: #4CAF50;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 4px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #45a049;
+            color: white;
+        }
+</style>
+
+<div class="container" style="margin-top:350px">
+    <!-- Form tạo Session nằm bên trái -->
+    <div class="form-container" onclick="toggleDropdown(this)">
+        <h3>Tạo mới Session</h3>
+        <div class="form-content">
+            <form method="post">
+                <label for="SelectedCourseId">Course:</label>
+                <select id="SelectedCourseId" asp-for="SelectedCourseId" required>
+                    <option value="">Chọn khóa học</option>
+                    @foreach (var course in Model.Courses)
+                    {
+                        <option value="@course.Id">@course.Name</option>
+                    }
+                </select>
+
+                <label for="SelectedClassId">Class:</label>
+                <select id="SelectedClassId" asp-for="SelectedClassId" required>
+                    <option value="">Chọn lớp học</option>
+                    @foreach (var cls in Model.Classes)
+                    {
+                        <option value="@cls.Id">@cls.Name</option>
+                    }
+                </select>
+
+                <label for="SelectedTeacherId">Teacher:</label>
+                <select id="SelectedTeacherId" asp-for="SelectedTeacherId" required>
+                    <option value="">Chọn giáo viên</option>
+                    @foreach (var teacher in Model.Teachers)
+                    {
+                        <option value="@teacher.Id">@teacher.Username</option>
+                    }
+                    }
+                </select>
+
+                <button type="submit" asp-page-handler="CreateClass">Create Session</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Form tạo mới Class nằm bên phải -->
+    <div class="form-container" onclick="toggleDropdown(this)">
+        <h3>Tạo mới Class</h3>
+        <div class="form-content">
+            <form method="post" asp-page-handler="CreateNewClass">
+                <label for="NewClassName">Class Name:</label>
+                <input type="text" id="NewClassName" name="NewClassName" required />
+
+                <button type="submit">Create Class</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript cho hiệu ứng dropdown -->
+<script>
+    function toggleDropdown(element) {
+        element.classList.toggle("active");
+    }
+</script>
+
+
+<!-- Danh sách Session -->
+<div class="table-container">
+    <h3>Danh sách lớp theo môn học</h3>
+    @if (Model.SessionsByCourse != null)
+    {
+        @foreach (var courseGroup in Model.SessionsByCourse)
+        {
+            <h4>@courseGroup.Key</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Stt</th>
+                        <th>Class Name</th>
+                        <th>Teacher Name</th>
+                        <th>Thêm học sinh</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (int i = 0; i < courseGroup.Value.Count; i++)
+                    {
+                        <tr>
+                            <td>@(i + 1)</td>
+                            <td>@courseGroup.Value[i].ClassName</td>
+                            <td>@courseGroup.Value[i].TeacherName</td>
+                            <td>
+                                <a asp-page="./AddStudent" asp-route-SessionId="@courseGroup.Value[i].Id" class="btn btn-primary">
+                                    Thêm học sinh
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    }
+</div>

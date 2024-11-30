@@ -1,0 +1,395 @@
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\appsettings.Development.json
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\appsettings.json
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.staticwebassets.runtime.json
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.exe
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.deps.json
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.runtimeconfig.json
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.pdb
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\ClosedXML.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\EPPlus.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\EPPlus.Interfaces.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\EPPlus.System.Drawing.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\ExcelNumberFormat.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Irony.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\SixLabors.Fonts.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.Formats.Asn1.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.IO.Packaging.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.Text.Json.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\XLParser.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+D:\PRN231\gms\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\PRN231\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.csproj.AssemblyReference.cache
+D:\PRN231\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN231\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.AssemblyInfoInputs.cache
+D:\PRN231\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.AssemblyInfo.cs
+D:\PRN231\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.csproj.CoreCompileInputs.cache
+D:\PRN231\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.MvcApplicationPartsAssemblyInfo.cache
+D:\PRN231\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.RazorAssemblyInfo.cache
+D:\PRN231\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.RazorAssemblyInfo.cs
+D:\PRN231\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.sourcelink.json
+D:\PRN231\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets.build.json
+D:\PRN231\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets.development.json
+D:\PRN231\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets\msbuild.WebClient.Microsoft.AspNetCore.StaticWebAssets.props
+D:\PRN231\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets\msbuild.build.WebClient.props
+D:\PRN231\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebClient.props
+D:\PRN231\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebClient.props
+D:\PRN231\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets.pack.json
+D:\PRN231\gms\GMS_frontend\WebClient\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\PRN231\gms\GMS_frontend\WebClient\obj\Debug\net6.0\scopedcss\bundle\WebClient.styles.css
+D:\PRN231\gms\GMS_frontend\WebClient\obj\Debug\net6.0\scopedcss\projectbundle\WebClient.bundle.scp.css
+D:\PRN231\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.csproj.Up2Date
+D:\PRN231\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.dll
+D:\PRN231\gms\GMS_frontend\WebClient\obj\Debug\net6.0\refint\WebClient.dll
+D:\PRN231\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.pdb
+D:\PRN231\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.genruntimeconfig.cache
+D:\PRN231\gms\GMS_frontend\WebClient\obj\Debug\net6.0\ref\WebClient.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\appsettings.Development.json
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\appsettings.json
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.staticwebassets.runtime.json
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.exe
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.deps.json
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.runtimeconfig.json
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.pdb
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\ClosedXML.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\EPPlus.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\EPPlus.Interfaces.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\EPPlus.System.Drawing.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\ExcelNumberFormat.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Irony.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\SixLabors.Fonts.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.Formats.Asn1.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.IO.Packaging.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.Text.Json.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\XLParser.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.csproj.AssemblyReference.cache
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.AssemblyInfoInputs.cache
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.AssemblyInfo.cs
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.csproj.CoreCompileInputs.cache
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.MvcApplicationPartsAssemblyInfo.cache
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.RazorAssemblyInfo.cache
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.RazorAssemblyInfo.cs
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.sourcelink.json
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets.build.json
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets.development.json
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets\msbuild.WebClient.Microsoft.AspNetCore.StaticWebAssets.props
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets\msbuild.build.WebClient.props
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebClient.props
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebClient.props
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets.pack.json
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\scopedcss\bundle\WebClient.styles.css
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\scopedcss\projectbundle\WebClient.bundle.scp.css
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.csproj.Up2Date
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\refint\WebClient.dll
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.pdb
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.genruntimeconfig.cache
+D:\SE_ki_8\PRN231\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\ref\WebClient.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.csproj.AssemblyReference.cache
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.AssemblyInfoInputs.cache
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.AssemblyInfo.cs
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.csproj.CoreCompileInputs.cache
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.MvcApplicationPartsAssemblyInfo.cache
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.RazorAssemblyInfo.cache
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.RazorAssemblyInfo.cs
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.sourcelink.json
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\refint\WebClient.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.pdb
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\appsettings.Development.json
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\appsettings.json
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.staticwebassets.runtime.json
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.exe
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.deps.json
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.runtimeconfig.json
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.pdb
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\ClosedXML.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\EPPlus.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\EPPlus.Interfaces.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\EPPlus.System.Drawing.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\ExcelNumberFormat.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Irony.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\SixLabors.Fonts.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.Formats.Asn1.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.IO.Packaging.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.Text.Json.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\XLParser.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets.build.json
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets.development.json
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets\msbuild.WebClient.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets\msbuild.build.WebClient.props
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebClient.props
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebClient.props
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\scopedcss\bundle\WebClient.styles.css
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\scopedcss\projectbundle\WebClient.bundle.scp.css
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.csproj.Up2Date
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.genruntimeconfig.cache
+E:\Study Document\Ki_8\PRN231\gms (1)\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\ref\WebClient.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\appsettings.Development.json
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\appsettings.json
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.staticwebassets.runtime.json
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.exe
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.deps.json
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.runtimeconfig.json
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.pdb
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\ClosedXML.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\EPPlus.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\EPPlus.Interfaces.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\EPPlus.System.Drawing.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\ExcelNumberFormat.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Irony.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\SixLabors.Fonts.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.Formats.Asn1.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.IO.Packaging.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\System.Text.Json.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\XLParser.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.csproj.AssemblyReference.cache
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.AssemblyInfoInputs.cache
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.AssemblyInfo.cs
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.csproj.CoreCompileInputs.cache
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.MvcApplicationPartsAssemblyInfo.cache
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.RazorAssemblyInfo.cache
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.RazorAssemblyInfo.cs
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.sourcelink.json
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets.build.json
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets.development.json
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets\msbuild.WebClient.Microsoft.AspNetCore.StaticWebAssets.props
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets\msbuild.build.WebClient.props
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebClient.props
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebClient.props
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets.pack.json
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\scopedcss\bundle\WebClient.styles.css
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\scopedcss\projectbundle\WebClient.bundle.scp.css
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.csproj.Up2Date
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\refint\WebClient.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.pdb
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.genruntimeconfig.cache
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\WebClient\obj\Debug\net6.0\ref\WebClient.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\appsettings.json
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.staticwebassets.runtime.json
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.exe
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.deps.json
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.runtimeconfig.json
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.pdb
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\ClosedXML.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\EPPlus.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\EPPlus.Interfaces.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\EPPlus.System.Drawing.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\ExcelNumberFormat.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\Irony.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\SixLabors.Fonts.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\System.Formats.Asn1.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\System.IO.Packaging.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\XLParser.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.AssemblyInfo.cs
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.RazorAssemblyInfo.cache
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.RazorAssemblyInfo.cs
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.sourcelink.json
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets\msbuild.WebClient.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets\msbuild.build.WebClient.props
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebClient.props
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebClient.props
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\obj\Debug\net6.0\scopedcss\bundle\WebClient.styles.css
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\obj\Debug\net6.0\scopedcss\projectbundle\WebClient.bundle.scp.css
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.csproj.Up2Date
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\obj\Debug\net6.0\refint\WebClient.dll
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.pdb
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.genruntimeconfig.cache
+C:\Users\admin\Documents\Zalo Received Files\GMS_frontend\WebClient\obj\Debug\net6.0\ref\WebClient.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\appsettings.Development.json
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\appsettings.json
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.staticwebassets.runtime.json
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.exe
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.deps.json
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.runtimeconfig.json
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\WebClient.pdb
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\ClosedXML.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\EPPlus.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\EPPlus.Interfaces.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\EPPlus.System.Drawing.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\ExcelNumberFormat.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\Irony.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\SixLabors.Fonts.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\System.Formats.Asn1.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\System.IO.Packaging.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\System.Text.Json.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\XLParser.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.csproj.AssemblyReference.cache
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.AssemblyInfoInputs.cache
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.AssemblyInfo.cs
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.csproj.CoreCompileInputs.cache
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.MvcApplicationPartsAssemblyInfo.cache
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.RazorAssemblyInfo.cache
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.RazorAssemblyInfo.cs
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets.build.json
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets.development.json
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets\msbuild.WebClient.Microsoft.AspNetCore.StaticWebAssets.props
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets\msbuild.build.WebClient.props
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebClient.props
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebClient.props
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\obj\Debug\net6.0\staticwebassets.pack.json
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\obj\Debug\net6.0\scopedcss\bundle\WebClient.styles.css
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\obj\Debug\net6.0\scopedcss\projectbundle\WebClient.bundle.scp.css
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.csproj.Up2Date
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\obj\Debug\net6.0\refint\WebClient.dll
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.pdb
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.genruntimeconfig.cache
+D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\obj\Debug\net6.0\ref\WebClient.dll

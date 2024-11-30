@@ -1,0 +1,214 @@
+﻿@page
+@using WebClient.DTO.ComparisonType
+@model WebClient.Pages.admin.GradeCategoryManagerModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@removeTagHelper Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper , Microsoft.AspNetCore.Mvc.TagHelpers
+
+<div class="container mt-5 p-4 bg-light rounded shadow-sm">
+    <h2 class="text-center mb-4">Grade Category Manager</h2>
+
+    <!-- Form to add new GradeType -->
+    <form method="post" asp-page-handler="Add" class="form-container mb-4" onsubmit="return validateForm()">
+        <input type="text" asp-for="GradeType.Name" id="gradeTypeName" class="form-control mb-3" placeholder="GradeType Name" required />
+
+        <div class="radio-group mb-3">
+            @foreach (var role in Model.ListRoleGraded)
+            {
+                <label class="me-3">
+                    <input type="radio" value="@role.RoleId" asp-for="GradeType.GradedByRole" required /> @role.RoleName
+                </label>
+            }
+        </div>
+
+        <select asp-for="GradeType.ComparasionTypeId" class="form-select mb-3">
+            @foreach (var cp in Model.ListComparisonTypes)
+            {
+                <option value="@cp.Id">@cp.Name</option>
+            }
+        </select>
+
+        <input type="number" asp-for="GradeType.GradeValue" min="0" max="10" step="1" class="form-control mb-3" required placeholder="Grade Value" />
+
+        <div class="d-grid">
+            <input type="submit" value="Create" class="btn btn-primary btn-lg rounded-pill" />
+        </div>
+    </form>
+
+    @if (!String.IsNullOrEmpty(Model.Msg))
+    {
+        <p id="errorMessage" class="alert alert-warning text-center">@Model.Msg</p>
+    }
+
+    @if (Model.ListGradeTypes != null && Model.ListGradeTypes.Count > 0)
+    {
+        <!-- Table to manage existing GradeTypes -->
+        <form method="post" asp-page-handler="Update">
+            <table class="table table-hover table-bordered text-center align-middle">
+                <thead class="table-dark">
+                    <tr>
+                        <th>GradeType Name</th>
+                        <th>Graded By</th>
+                        <th>Pass Condition</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var gradeType in Model.ListGradeTypes)
+                    {
+                        <tr>
+                            <td>@gradeType.Name</td>
+                            <td>
+                                @foreach (var role in Model.ListRoleGraded)
+                                {
+                                    <label class="me-2">
+                                        <input type="radio" name="gradedByRoleId_@gradeType.Id" value="@role.RoleId" @(role.RoleId == gradeType.GradedByRoleId ? "checked" : "") /> @role.RoleName
+                                    </label>
+                                }
+                            </td>
+
+                            <td>
+                                <select name="comparasionType_@gradeType.Id" class="form-select d-inline w-auto me-2">
+                                    @foreach (var cp in Model.ListComparisonTypes)
+                                    {
+                                        <option value="@cp.Name" @(cp.Name == gradeType.ComparisonType ? "selected" : "")>@cp.Name</option>
+                                    }
+                                </select>
+
+                                <input type="number" name="comparisonValue_@gradeType.Id" value="@gradeType.ComparisonValue" min="0" max="10" step="1" class="form-control d-inline w-auto" />
+                                <input type="hidden" name="gradeTypeId_@gradeType.Id" value="@gradeType.Id" />
+                            </td>
+
+                            <td>
+                                <button type="button" class="btn btn-danger btn-sm" onclick="submitDeleteForm(@gradeType.Id)">Delete</button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <div class="d-flex justify-content-between mt-3">
+                <button type="submit" class="btn btn-success btn-lg">Update</button>
+                <a class="btn btn-secondary btn-lg" asp-page="/admin/Index">Back</a>
+            </div>
+        </form>
+
+        <form id="delete-form" method="post" asp-page-handler="Delete" style="display:none;">
+            <input type="hidden" name="gradeTypeId" id="delete-gradeTypeId" />
+        </form>
+    }
+    else
+    {
+        <p class="text-center mt-4">There are no grade types.</p>
+    }
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+<style>
+    html, body {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        flex: 1;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+    }
+
+    .form-container {
+        background-color: #e9ecef;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+        .form-container input[type="text"],
+        .form-container input[type="number"],
+        .form-container select {
+            border-radius: 5px;
+            padding: 8px;
+        }
+
+    .radio-group label {
+        font-weight: 500;
+    }
+
+    .table {
+        background-color: #ffffff;
+    }
+
+    .table-dark th {
+        color: #ffffff;
+        background-color: #343a40;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+    .btn-secondary {
+        background-color: #6c757d;
+    }
+
+    .alert-warning {
+        background-color: #fff3cd;
+        color: #856404;
+        border: 1px solid #ffeeba;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .rounded-pill {
+        border-radius: 50px !important;
+    }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const errorMessage = document.getElementById("errorMessage");
+        if (errorMessage) {
+            setTimeout(function () {
+                errorMessage.style.display = "none";
+            }, 3000);
+        }
+    });
+
+    function submitDeleteForm(gradeTypeId) {
+        if (confirm("Are you sure you want to delete this grade type?")) {
+            const deleteForm = document.getElementById('delete-form');
+            const deleteGradeTypeIdInput = document.getElementById('delete-gradeTypeId');
+            deleteGradeTypeIdInput.value = gradeTypeId;
+            deleteForm.submit();
+        }
+    }
+
+    function validateForm() {
+        const gradeTypeName = document.getElementById("gradeTypeName").value.trim();
+        if (gradeTypeName === "") {
+            alert("Please fill out GradeType Name.");
+            return false;
+        }
+        return true;
+    }
+</script>

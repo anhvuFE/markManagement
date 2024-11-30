@@ -1,0 +1,75 @@
+﻿@page
+@model WebClient.Pages.teacher.ViewGradeModel
+
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 1em;
+        font-family: Arial, sans-serif;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+
+
+    th, td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+
+    th {
+        background-color: #009879;
+        color: white;
+        font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f3f3f3;
+    }
+
+    tr:hover {
+        background-color: #f1f1f1;
+    }
+
+</style>
+
+<body>
+    <div class="container">
+        <h2 class="title">View Grade of @Model.CourseName - @Model.ClassName</h2>
+        <div class="inline">
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        @foreach (var grade in Model.ListGrade)
+                        {
+                            <th>@grade.Name</th>
+                        }
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (int i = 0; i < Model.ListStudent.Count; i++)
+                    {
+                        <tr>
+                            <td>@Model.ListStudent[i].Username</td>
+                            @for (int j = 0; j < Model.ListGrade.Count; j++)
+                            {
+                                <td>@Model.GradeTable[i][j]</td>
+                            }
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <a asp-page="/teacher/ListGrade"
+           asp-route-sessionId="@Model.SessionId"
+           asp-route-className="@Model.ClassName"
+           asp-route-courseName="@Model.CourseName"
+           class="back-link">
+            Back
+        </a>
+    </div>
+</body>
+

@@ -1,0 +1,83 @@
+﻿@page
+@model WebClient.Pages.admin.AddStudentModel
+
+<h2>Thêm sinh viên vào lớp học</h2>
+
+<style>
+    .container {
+        width: 80%;
+        margin: auto;
+        font-family: Arial, sans-serif;
+    }
+
+    .form-group {
+        margin-top: 20px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+    }
+
+    th {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    .error-message {
+        color: red;
+    }
+</style>
+
+<div class="container">
+    <div class="error-message" >
+        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+        {
+            <p>@error.ErrorMessage</p>
+        }
+    </div>
+
+    <h3>Danh sách sinh viên hiện tại trong lớp học</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Student ID</th>
+                <th>Student Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in Model.CurrentStudents)
+            {
+                <tr>
+                    <td>@student.StudentId</td>
+                    <td>@student.StudentName</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h3>Thêm sinh viên mới</h3>
+    <form method="post">
+        <input type="hidden" asp-for="SessionId" />
+
+        <label for="SelectedStudentId">Chọn sinh viên:</label>
+        <select asp-for="SelectedStudentId">
+            <option value="">Chọn sinh viên</option>
+            @foreach (var student in Model.AllStudents)
+            {
+                <option value="@student.Id">@student.Username</option>
+            }
+        </select>
+
+        <button type="submit" asp-page-handler="AddStudent">Thêm sinh viên</button>
+    </form>
+
+</div>

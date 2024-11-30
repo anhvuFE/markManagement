@@ -1,0 +1,240 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    //padding: 10px;
+   // background-color: #f2f2f2;
+    // background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+/*.container*/
+.card {
+/*    max-width: 1000px;
+    width: 100%;
+*/
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+}
+
+.title {
+    text-align: center;
+    color: #009879;
+}
+
+.table-custom {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif
+}
+
+    .table-custom thead {
+        background-color: #4CAF50;
+    }
+
+    .table-custom th, .table-custom td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    .table-custom th {
+        background-color: #009879;
+        color: white;
+        font-weight: bold;
+    }
+
+    .table-custom tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    .table-custom tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    .table-custom a {
+        text-decoration: none;
+        color: black;
+    }
+
+        .table-custom a:hover {
+            text-decoration: underline;
+        }
+
+
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background-color: white;
+}
+
+    .table th, .table td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+
+    .table th {
+        background-color: #009879;
+        color: white;
+        font-weight: bold;
+    }
+
+    .table tbody tr:nth-child(even) {
+        background-color: #f3f3f3;
+    }
+
+    .table tbody tr:hover {
+        background-color: #f1f1f1;
+    }
+
+.form-container {
+    margin-top: 20px;
+}
+
+    .form-container input[type="number"] {
+        width: 60px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        text-align: center;
+    }
+
+    .form-container input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #009879;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .form-container input[type="submit"]:hover {
+            background-color: #007964;
+        }
+
+.error-message {
+    color: red;
+}
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px 10px; 
+    text-decoration: none;
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #000; 
+    cursor: pointer;
+}
+
+    .back-link:hover {
+        background-color: #e0e0e0; 
+        border-color: #bbb; 
+    }
+
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .button-link:hover {
+        background-color: #0056b3;
+        color: white;
+    }
+
+
+.export-link {
+    font-size: 16px;
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+    .export-link:hover {
+        color: green;
+        transform: scale(1.05);
+    }
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+    .button-group .btn {
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .button-group .btn-primary {
+        background-color: #009879;
+        color: white;
+        border: none;
+    }
+
+        .button-group .btn-primary:hover {
+            background-color: #007964;
+        }
+
+    .button-group .btn-secondary {
+        background-color: #6c757d;
+        color: white;
+        border: none;
+    }
+
+        .button-group .btn-secondary:hover {
+            background-color: #5a6268;
+        }
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: 0;
+    border-radius: 0.25rem;
+}
+
+.dropdown-submenu:hover .dropdown-menu {
+    display: block;
+}
+

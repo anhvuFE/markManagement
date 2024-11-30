@@ -1,0 +1,171 @@
+﻿@page
+@model WebClient.Pages.admin.UpdateDistributionModel
+@{
+    ViewData["Title"] = "Grading Distribution";
+}
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+
+<style>
+    .form-container {
+        width: 60%;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+
+        .form-container label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-container select,
+        .form-container input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-container button[type="button"],
+        .form-container button[type="submit"] {
+            padding: 10px 15px;
+            margin-right: 10px;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+            .form-container button[type="button"]:not(.remove-button) {
+                background-color: #4CAF50;
+            }
+
+            .form-container button[type="button"]:hover:not(.remove-button) {
+                background-color: #45a049;
+            }
+
+        .form-container button[type="submit"] {
+            background-color: #007BFF;
+        }
+
+            .form-container button[type="submit"]:hover {
+                background-color: DarkBlue;
+            }
+
+        .form-container .grade-entry {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+            .form-container .grade-entry select,
+            .form-container .grade-entry input[type="number"] {
+                margin-right: 10px;
+                flex: 1;
+            }
+
+            .form-container .grade-entry .remove-button {
+                background-color: #FF0000;
+            }
+
+                .form-container .grade-entry .remove-button:hover {
+                    background-color: #FF4500;
+                }
+
+        .form-container .form-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+            .form-container .form-header div {
+                margin-right: 10px;
+                flex: 1;
+            }
+
+                .form-container .form-header div:last-child {
+                    flex: 0.5;
+                }
+</style>
+
+<h2>Update Distribution For @Model.CurrentCourseName</h2>
+
+<div class="form-container">
+    @if (!String.IsNullOrEmpty(Model.Msg))
+    {
+        <p class="error-message" id="errorMessage">@Model.Msg</p>
+    }
+    <form method="post" asp-page-handler="UpdateDistribution">
+        <input type="hidden" name="courseId" value="@Model.CurrentCourseId" />
+        <input type="hidden" name="courseName" value="@Model.CurrentCourseName" />
+        <div class="form-header">
+            <div>Grade Type</div>
+            <div>Quantity</div>
+            <div>Weight Per Unit</div>
+            <div></div>
+        </div>
+        <div id="gradeEntriesContainer">
+            <div class="grade-entry">
+                <select name="gradeTypeSelect" required>
+                    @foreach (var gradeType in Model.ListGradeType)
+                    {
+                        <option value="@gradeType.Id">@gradeType.Name</option>
+                    }
+                </select>
+
+                <input type="number" name="numberOfGradeType" min="1" step="1" required />
+
+                <input type="number" name="weightPerGrade" step="5" min="5" max="100" required />
+
+                <button type="button" class="remove-button" onclick="removeGradeEntry(this)">Remove</button>
+            </div>
+        </div>
+
+        <button type="button" onclick="addGradeEntry()">Add Grade Type</button>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<script>
+    function addGradeEntry() {
+        var container = document.getElementById('gradeEntriesContainer');
+        var newEntry = document.createElement('div');
+        newEntry.className = 'grade-entry';
+        newEntry.innerHTML = `
+                        <select name="gradeTypeSelect">
+    @foreach (var gradeType in Model.ListGradeType)
+    {
+                                        <option value="@gradeType.Id">@gradeType.Name</option>
+    }
+                        </select>
+                        <input type="number" name="numberOfGradeType" min="1" step="1" required />
+                        <input type="number" name="weightPerGrade" step="5" min="5" max="100" required />
+                        <button type="button" class="remove-button" onclick="removeGradeEntry(this)">Remove</button>
+                    `;
+        container.appendChild(newEntry);
+    }
+
+    function removeGradeEntry(button) {
+        var container = document.getElementById('gradeEntriesContainer');
+        if (container.childElementCount > 1) {
+            button.parentElement.remove();
+        } else {
+            alert("At least one entry must be present.");
+        }
+    }
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const errorMessage = document.getElementById("errorMessage");
+        if (errorMessage) {
+            setTimeout(function () {
+                errorMessage.style.display = "none";
+            }, 3000);
+        }
+    });
+</script>

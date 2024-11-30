@@ -1,0 +1,135 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebClient
+build_property.RootNamespace = WebClient
+build_property.ProjectDir = D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\SE_ki_8\PRN231\GMS - Grade Management System\GMS - Grade Management System\gms\gms\GMS_frontend\GMS_frontend\WebClient
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjZXNzRGVuaWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/admin/AddStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cQWRkU3R1ZGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/admin/Class.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cQ2xhc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/admin/Course.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cQ291cnNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/admin/Distribute.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cRGlzdHJpYnV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/admin/GradeCategoryManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cR3JhZGVDYXRlZ29yeU1hbmFnZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/admin/UpdateDistribution.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cVXBkYXRlRGlzdHJpYnV0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/admin/ViewDistribution.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cVmlld0Rpc3RyaWJ1dGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/common/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29tbW9uXExvZ291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/guest/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ3Vlc3RcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/khaothi/Graded.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNca2hhb3RoaVxHcmFkZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/khaothi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNca2hhb3RoaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/khaothi/UpdateGrade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNca2hhb3RoaVxVcGRhdGVHcmFkZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/SeverError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2V2ZXJFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/Shared/Components/CourseDropdown/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcQ291cnNlRHJvcGRvd25cRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc3R1ZGVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/student/ViewGrade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc3R1ZGVudFxWaWV3R3JhZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/teacher/Graded.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhY2hlclxHcmFkZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/teacher/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhY2hlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/teacher/ListGrade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhY2hlclxMaXN0R3JhZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/teacher/ViewGrade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhY2hlclxWaWV3R3JhZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE_ki_8/PRN231/GMS - Grade Management System/GMS - Grade Management System/gms/gms/GMS_frontend/GMS_frontend/WebClient/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-fxb6eae6jp

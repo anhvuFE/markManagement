@@ -1,0 +1,224 @@
+﻿@page
+@model WebClient.Pages.student.ViewGradeModel
+@inject IHttpContextAccessor HttpContextAccessor;
+@using Newtonsoft.Json
+@using WebClient.DTO.User;
+@{
+    var json = HttpContextAccessor.HttpContext.Session.GetString("currentUser");
+    var user = json != null ? JsonConvert.DeserializeObject<GetUserDTO>(json) : null;
+    var sessionTitle = user != null ? $"List of {user.Username}'s Session" : "Session List";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Table</title>
+    <style>
+        /* Styling the table with soft borders and shadow effect */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 1em;
+            font-family: Arial, sans-serif;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        /* Styling for main title */
+        .title {
+            color: #009879;
+            font-size: 2em;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        /* Styling for the table header */
+        thead tr {
+            background-color: #009879; /* Green header */
+            color: #ffffff;
+            text-align: center;
+        }
+
+        /* Styling for table cells */
+        th, td {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+            text-align: center;
+        }
+
+        /* Alternating row colors and hover effect */
+        tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+
+        tbody tr:hover {
+            background-color: #e9f7ef;
+        }
+
+        /* Styling for rowspan cells */
+        td[rowspan] {
+            background-color: #009879;
+            color: #ffffff;
+            font-weight: normal;
+            text-align: center;
+        }
+
+        /* Styling for session name cells */
+        td.session {
+            color: #333;
+        }
+
+        /* Table footer styling */
+        tfoot {
+            background-color: #f9f9f9;
+            font-weight: bold;
+        }
+
+        /* Centered title text */
+        h2.title {
+            text-align: center;
+            color: #009879;
+        }
+
+        /* Back button styling */
+        .back-link {
+            display: block;
+            padding: 10px 20px;
+            color: #009879;
+            border: 2px solid #009879;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 1em;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            transition: background-color 0.3s, color 0.3s;
+            margin: 20px auto;
+            width: 100px;
+        }
+
+            .back-link:hover {
+                background-color: #e9f7ef;
+                color: #009879;
+            }
+
+        /* Status styling */
+        .status .passed {
+            color: green;
+            font-weight: bold;
+        }
+
+        .status .not-passed {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="d-flex justify-content-center mt-3">
+        <div>
+            <h2 class="title">@sessionTitle</h2>
+
+            @if (Model.ListSession != null && Model.ListSession.Count > 0)
+            {
+                <table class="table-custom">
+                    <thead>
+                        <tr>
+                            <th>Session Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var session in Model.ListSession)
+                        {
+                            <tr>
+                                <td class="session">
+                                    <a asp-page-handler="Grade"
+                                       asp-route-sessionId="@session.Id"
+                                       asp-route-courseId="@session.CourseId"
+                                       asp-route-courseName="@session.CourseName"
+                                       asp-route-className="@session.ClassName"
+                                       asp-route-teacherName="@session.TeacherName"
+                                       title="View Grade">
+                                        @session.ClassName - @session.CourseName - @session.TeacherName
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <p>There are no sessions.</p>
+            }
+        </div>
+
+        @if (Model.SessionId != null && Model.CourseId != null && Model.CourseName != null && Model.ClassName != null && Model.TeacherName != null)
+        {
+            <div class="ms-3">
+                <table summary="Report">
+                    <thead>
+                        <tr>
+                            <th>Grade category</th>
+                            <th>Grade item</th>
+                            <th>Weight</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @for (int i = 0; i < Model.ViewGrade.GradeTypes.Count; i++)
+                        {
+                            var gradeType = Model.ViewGrade.GradeTypes[i];
+                            for (int j = 0; j < gradeType.Grades.Count; j++)
+                            {
+                                var grade = gradeType.Grades[j];
+                                if (j == 0)
+                                {
+                                    <tr>
+                                        <td rowspan="@(gradeType.Grades.Count)">@gradeType.GradeTypeName</td>
+                                        <td>@grade.GradeName</td>
+                                        <td>@grade.Weight %</td>
+                                        <td>@grade.Value</td>
+                                    </tr>
+                                }
+                                else
+                                {
+                                    <tr>
+                                        <td>@grade.GradeName</td>
+                                        <td>@grade.Weight %</td>
+                                        <td>@grade.Value</td>
+                                    </tr>
+                                }
+                            }
+                        }
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td rowspan="2">Course total</td>
+                            <td>Average</td>
+                            <td colspan="2">@Model.Avg</td>
+                        </tr>
+                        <tr>
+                            <td>Status</td>
+                            <td colspan="2" class="status">
+                                @if (Model.Status.isPass)
+                                {
+                                    <span class="passed">PASSED</span>
+                                }
+                                else
+                                {
+                                    <span class="not-passed">NOT PASSED</span>
+                                }
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        }
+    </div>
+
+    <a class="back-link" asp-page="/student/Index">Back</a>
+</body>
+</html>

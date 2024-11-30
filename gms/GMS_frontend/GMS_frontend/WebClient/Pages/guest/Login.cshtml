@@ -1,0 +1,68 @@
+﻿@page
+@model WebClient.Pages.guest.LoginModel;
+@{
+}
+<div class="card w-25 login-form">
+    <div class="card-body p-3">
+        <form method="post">
+            <div class="text-danger">
+                @foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    <p>@error.ErrorMessage</p>
+                }
+            </div>
+            <div class="form-group m-3">
+                <input required asp-for="Username" class="form-control" placeholder="UserName" />
+                <span class="text-danger"></span>
+            </div>
+            <div class="form-group m-3">
+                <input required asp-for="Password" type="password" class="form-control" placeholder="Password" />
+                <span class="text-danger"></span>
+            </div>
+            <div class="form-group m-3 d-flex justify-content-between">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="remember">
+                    <label class="form-check-label fs-7" for="remember">Remember me?</label>
+                </div>
+
+                <a class="text-decoration-none fs-7 mt-1" href="#"></a>
+            </div>
+            <div class="form-group m-3 d-flex justify-content-center">
+                <input type="submit" value="Login" class="btn btn-login w-100" />
+            </div>
+        </form>
+    </div>
+</div>
+<style>
+    .login-form{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .bg{
+        background-image: url(https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/459690003_915372537287677_951671014783210398_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeHYA9Yhu0QhYa7QBdC-e6-dnoay3zP5C12ehrLfM_kLXYsSLcXJZ_AtpAyfrEymMXXpgemDKxFc8mUmY2kF5arp&_nc_ohc=2XOZBVrgcG0Q7kNvgFDwPQo&_nc_zt=23&_nc_ht=scontent.fsgn2-3.fna&_nc_gid=AojyYdaZP1I_6QJeoS63Pvj&oh=00_AYCe1W03Ch-Bez0Y7ihHzOLycql9zPERy_kjLED5VsLDdw&oe=674B56F3);
+        height: 85vh;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    body{
+        padding: 0;
+    }
+    .form-control, .btn{
+        border-radius: 20px;
+    }
+    .form-control {
+        padding: 12px 24px;
+        
+    }
+    .fs-7{
+        font-size: 0.8vw;
+    }
+
+    .btn-login{
+        background-color: #EF8D01;
+        color: white;
+    }
+</style>

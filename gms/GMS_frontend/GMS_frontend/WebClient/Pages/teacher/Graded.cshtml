@@ -1,0 +1,83 @@
+﻿@page
+@using Newtonsoft.Json
+@model WebClient.Pages.teacher.GradedModel
+
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+
+<div class="container mt-5 p-4 bg-white rounded shadow-sm border">
+    <h2 class="text-center text-success fw-bold mb-4">Grades for @Model.CourseName - @Model.ClassName - @Model.GradeName</h2>
+
+    @if (!String.IsNullOrEmpty(Model.Msg))
+    {
+        <div id="errorMessage" class="alert alert-danger text-center" role="alert">
+            @Model.Msg
+        </div>
+    }
+
+    @if (Model.ListUserDTO != null && Model.ListUserDTO.Count > 0)
+    {
+        <div class="form-container">
+            <form method="post" asp-page-handler="Graded">
+                <input type="hidden" name="gradeId" value="@Model.GradeId" />
+                <input type="hidden" name="gradeName" value="@Model.GradeName" />
+                <input type="hidden" name="sessionId" value="@Model.SessionId" />
+                <input type="hidden" name="className" value="@Model.ClassName" />
+                <input type="hidden" name="courseName" value="@Model.CourseName" />
+
+                <table class="table table-bordered text-center align-middle shadow-sm">
+                    <thead class="bg-success text-white">
+                        <tr>
+                            <th>Student ID</th>
+                            <th>Student Name</th>
+                            <th>Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @for (int i = 0; i < Model.ListUserDTO.Count; i++)
+                        {
+                            <tr>
+                                <td>@Model.ListUserDTO[i].Id</td>
+                                <td>@Model.ListUserDTO[i].Username</td>
+                                <td>
+                                    <input type="number" min="0" max="10" step="1"
+                                           name="grades[@i]"
+                                           value="@(Model.ListStudentGradeFromJson != null && Model.ListStudentGradeFromJson.Count > 0 ? Model.ListStudentGradeFromJson[i].gradeValue : "")"
+                                           class="form-control text-center rounded-pill border-success mx-auto"
+                                           style="width: 60%;"
+                                           required />
+                                    <input type="hidden" name="studentIds[@i]" value="@Model.ListUserDTO[i].Id" />
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+                <div class="d-flex justify-content-center gap-3 mt-4">
+                    <input type="submit" value="Submit" class="btn btn-success px-5 py-2 fw-semibold rounded-pill shadow-sm" />
+                    <a asp-page="/teacher/ListGrade"
+                       asp-route-sessionId="@Model.SessionId"
+                       asp-route-className="@Model.ClassName"
+                       asp-route-courseName="@Model.CourseName"
+                       class="btn btn-outline-success px-4 py-2 fw-semibold rounded-pill shadow-sm">
+                        Back
+                    </a>
+                </div>
+            </form>
+        </div>
+    }
+    else
+    {
+        <p class="text-center text-muted fs-5 mt-4">No students available for grading.</p>
+    }
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const errorMessage = document.getElementById("errorMessage");
+            if (errorMessage) {
+                setTimeout(function () {
+                    errorMessage.style.display = "none";
+                }, 3000);
+            }
+        });
+    </script>
+</div>

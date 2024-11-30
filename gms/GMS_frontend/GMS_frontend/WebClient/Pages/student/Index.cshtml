@@ -1,0 +1,99 @@
+﻿@page
+@model WebClient.Pages.student.IndexModel
+@{
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@inject IHttpContextAccessor HttpContextAccessor;
+@using Newtonsoft.Json
+@using WebClient.DTO.User;
+@{
+    var json = HttpContextAccessor.HttpContext.Session.GetString("currentUser");
+    var user = json != null ? JsonConvert.DeserializeObject<GetUserDTO>(json) : null;
+    var sessionTitle = user != null ? $"List of {user.Username}'s Sessions" : "Session List";
+}
+
+<div class="container d-flex flex-column align-items-center justify-content-center vh-100">
+    <h2 class="mb-5 text-primary fw-bold">@sessionTitle</h2>
+
+    <div class="card mb-4 shadow-sm hover-effect">
+        <div class="d-flex align-items-center justify-content-center p-3">
+            <img src="https://cdn-icons-png.flaticon.com/512/1836/1836327.png" alt="timeTable" width="50" height="50" />
+            <p class="ms-3 mt-2 text-uppercase text-dark fs-5 fw-semibold">Time Table</p>
+        </div>
+    </div>
+
+    <a asp-page="/student/ViewGrade" class="card mb-4 shadow-sm text-decoration-none hover-effect">
+        <div class="d-flex align-items-center justify-content-center p-3">
+            <img src="https://cdn-icons-png.flaticon.com/512/748/748449.png" alt="viewGrade" width="50" height="50" />
+            <p class="ms-3 mt-2 text-uppercase text-dark fs-5 fw-semibold">View Grade</p>
+        </div>
+    </a>
+</div>
+
+<style>
+    /* Trung tâm nội dung */
+    .container {
+        max-width: 400px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        color: #009879;
+    }
+
+    /* Định dạng chung cho thẻ card */
+    .card {
+        border-radius: 12px;
+        width: 100%;
+        transition: transform 0.3s, box-shadow 0.3s;
+        border: none;
+        background-color: #f8f9fa;
+    }
+
+    /* Hiệu ứng khi hover vào card */
+    .hover-effect:hover {
+        transform: translateY(-8px);
+        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+        transition: transform 0.3s ease;
+    }
+
+    .card:hover img {
+        transform: scale(1.15);
+    }
+
+    .card p {
+        color: #34495e;
+        font-weight: bold;
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    /* Hiệu ứng viền màu khi hover vào card */
+    .card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+        border: 2px solid transparent;
+        transition: border-color 0.3s;
+    }
+
+    .hover-effect:hover::before {
+        border-color: #28a745;
+    }
+
+    /* Responsive cho màn hình nhỏ hơn */
+  
+
+        .card {
+            width: 100%;
+        }
+    }
+</style>
